@@ -94,6 +94,22 @@ nav a.active {
     text-underline-offset: 0.2em;
 }
 
+footer {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 ::-moz-selection {
   color: #3e2f1c;
   background: #f4e799;
