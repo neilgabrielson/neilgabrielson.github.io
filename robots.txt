@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://neilgabrielson.com/sitemap.xml
