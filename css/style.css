@@ -1,0 +1,95 @@
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-size {
+    width: 50%;
+    margin: 20px 0;
+    height: auto;
+}
+
+.bookshelf {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 20px 0;
+  overflow-x: auto;
+}
+
+.bookshelf img {
+  max-height: 180px;
+  height: auto;
+  width: auto;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.bookshelf img:hover {
+  transform: scale(1.05);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    line-height: 1.6;
+    font-size: 1em;
+    color: #3e2f1c;
+    background: #fdf6e3;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+    color: #3e2f1c;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #7a6f61;
+    margin-top: 0;
+}
+
+h3 {
+    color: #3e2f1c;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    text-indent: 2em;
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+a {
+    color: #274d87;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #193156;
+}
+
+nav a.active {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+@media (max-width: 600px) {
+    #container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
