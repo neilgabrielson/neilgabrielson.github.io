@@ -1,7 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2rem 3rem;
+    background: #fdf6e3;
+    min-height: 100svh;
 }
 
 .image-size {
@@ -37,7 +43,7 @@ body {
     line-height: 1.6;
     font-size: 1em;
     color: #3e2f1c;
-    background: #fdf6e3;
+    background: #afa076;
 }
 
 h1 {
@@ -61,8 +67,8 @@ h3 {
 
 p {
     text-indent: 2em;
-    margin-bottom: 1em;
     line-height: 1.6;
+    margin-bottom: 1rem;
 }
 
 a {
@@ -77,6 +83,16 @@ a:hover {
 nav a.active {
     text-decoration: underline;
     text-underline-offset: 0.2em;
+}
+
+::-moz-selection {
+  color: #3e2f1c;
+  background: #f4e799;
+}
+
+::selection {
+  color: #3e2f1c;
+  background: #f4e799;
 }
 
 @media (max-width: 600px) {
