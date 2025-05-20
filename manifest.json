@@ -1,0 +1,13 @@
+{
+  "name": "Neil Gabrielson",
+  "theme_color": "#3e2f1c",
+  "background_color": "#afa076",
+  "display": "browser",
+  "icons": {
+    "16": "images/favicons/favicon-16x16.png",
+    "32": "images/favicons/favicon-32x32.png",
+    "180": "images/favicons/favicon-180x180.png"
+  },
+  "scope": "/",
+  "start_url": "/"
+}
