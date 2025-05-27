@@ -2,10 +2,6 @@
 
 My personal academic website showcasing my research, projects, and interests as a mathematics student at Northeastern University. **[Visit the live site here!](https://neilgabrielson.com)**
 
-## Overview
-
-This is a clean, academic-focused website featuring my research in pattern formation PDEs, mathematical projects like my interactive fractal plotter, and personal interests including my reading recommendations.
-
 ## Site Structure
 
 ### Pages
