@@ -59,17 +59,20 @@ p {
 }
 
 a {
-  color: #274d87;
-  text-decoration: none;
+  color: #2a5eaa;
 }
 
 a:hover {
-  color: #193156;
+  color: #213f6c;
 }
 
 /* Navigation */
 nav {
   margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 nav a.active {

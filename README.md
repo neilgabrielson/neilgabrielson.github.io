@@ -17,14 +17,13 @@ My personal academic website showcasing my research, projects, and interests as 
 - **Responsive Design** - Mobile-friendly with flexible layouts
 - **SEO Optimized** - Schema.org structured data, proper meta tags, and sitemap
 - **Accessibility** - Semantic HTML, proper contrast ratios, and clear navigation
-- **Clean Typography** - Georgia serif font with carefully tuned line spacing and hierarchy
 
 ### Color Palette
-- Background: `#afa076` (warm beige)
+- Background: `#afa076` (beige)
 - Content: `#fdf6e3` (cream)
 - Text: `#3e2f1c` (dark brown)
-- Accent: `#274d87` (academic blue)
-- Selection: `#f4e799` (highlight yellow)
+- Accent: `#2a5eaa` (blue)
+- Selection: `#f4e799` (yellow)
 
 ## File Structure
 
