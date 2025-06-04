@@ -1,2 +1,3 @@
 User-agent: *
+Allow: /
 Sitemap: https://neilgabrielson.com/sitemap.xml
