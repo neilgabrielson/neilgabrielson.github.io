@@ -93,18 +93,23 @@ img {
 .left {
   max-width: 50%;
   float: left;
-  margin-right: 20px;
+  margin-right: 1em;
 }
 
 .right {
   max-width: 50%;
   float: right;
-  margin-left: 20px;
+  margin-left: 1em;
 }
 
 .clear-right {
   clear: right;
   margin-top: 10px;
+}
+
+.clearfix {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .clearfix::after {
