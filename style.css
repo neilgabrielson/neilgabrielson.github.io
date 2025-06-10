@@ -66,6 +66,10 @@ a:hover {
   color: #213f6c;
 }
 
+hr {
+  border: 1px solid #c1af97;
+}
+
 /* Navigation */
 nav {
   margin-bottom: 20px;
@@ -86,10 +90,27 @@ img {
   height: auto;
 }
 
-img.left {
-  float: left;
-  margin: 0 20px 20px 0;
+.left {
   max-width: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
+.right {
+  max-width: 50%;
+  float: right;
+  margin-left: 20px;
+}
+
+.clear-right {
+  clear: right;
+  margin-top: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .bookshelf {
